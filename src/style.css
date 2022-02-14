@@ -1,9 +1,13 @@
 /* styles go here */
 label {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+label:last-child {
+  margin-bottom: 0;
 }
 
 fieldset {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
